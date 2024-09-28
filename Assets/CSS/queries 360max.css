@@ -1,0 +1,19 @@
+
+/* Coded by Muhumuza Deus Mugenyi 2024*/
+
+@media screen and (max-width: 360px){
+    #muhum_deus_ai_text {
+        font-family: 'Cascadia Code', sans-serif;
+        font-weight: bold;  
+        font-size: 200%;
+        color: #CCC0C0;
+          
+    
+        
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: 5rem;
+    
+    }
+    
+}

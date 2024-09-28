@@ -1,0 +1,178 @@
+
+/* Coded by Muhumuza Deus Mugenyi 2024*/
+
+@media screen and (max-width: 600px){
+
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        background-color: #497386 ;
+        padding-bottom: 1rem;
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        left: 0;
+        opacity: 0.96;
+        text-align: center;
+
+        transition: background-color 0.35s;
+    }
+    #main_upper_section {
+        color: #113946;
+        background-color: #507687;
+        /* width: 100%; */
+        padding: 5rem;
+        padding-top: 0;
+        padding-bottom: 5%;
+    
+    }
+    .nav_bar {
+        margin-top: 0rem;
+        padding-top:0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .scrolled {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+   #tabs {
+    display: none;
+   }
+
+   .header_name {
+    flex-grow: 1;
+    visibility: hidden; 
+    font-size: 1.5rem;
+   }
+
+   
+   .menu_hamburger {
+    display: block;
+    cursor: pointer;
+    }
+
+
+   
+   /* Display the home and hambuger icon */
+
+    #home_and_menu {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.2rem;
+        font-size: 2rem;
+    }
+    
+
+
+    #content_body {
+        padding: 0rem;
+    }
+
+
+ 
+    .dimmed_mnist_img_background {
+        margin-top: 0rem;
+        margin-left: 0%;
+        margin-right: 0%;
+        left: 0.45%;
+        padding-bottom: 10rem;
+        width: 98%;
+        height: 75%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 2rem;
+    
+    
+    }
+
+    .muhum_deus_ai_container {
+        margin-top: 10rem;
+        text-align:center;
+    }
+
+    #muhum_deus_ai_text { 
+        font-size: 180%;
+        color:  #113946;
+          
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: 5rem;
+    
+    }
+
+    .kanit-light {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+
+    .email_button {
+        
+        display: none;
+    }
+    .projects_button, .blog_button, .about_button, .contact_button {
+        display: none;
+    }
+
+
+    #main_bottom_section {
+        background-color: #113946;
+        width:100%;
+        padding-bottom: 100%;
+    
+    }
+
+    .social_handles {
+        display: inline-flex;
+        padding-left: 0;
+        width: 100%;
+        justify-content: center;
+
+
+    }
+    
+
+
+
+
+
+    #design_built_by_text, #copyright_text {
+        font-size: 1rem;
+    }
+}
+
+/* Cards */
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        width: 90%; /* Reduce card width for smaller screens */
+        margin: 10px auto; /* Center the card with margin */
+        padding: 10px; /* Adjust padding for smaller cards */
+        align-items: center; /* Center content */
+    }
+
+    .card-image {
+        width: 100%; /* Adjust image size */
+        height: auto;
+        border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+    }
+
+    .card-content {
+        text-align: left; /* Center the text */
+        padding-top: 10px; /* Add space between the image and text */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .card h2 {
+        font-size: 1rem; /* Reduce header size */
+    }
+
+    .card p {
+        font-size: 1.5rem; /* Reduce paragraph text size */
+    }
+}

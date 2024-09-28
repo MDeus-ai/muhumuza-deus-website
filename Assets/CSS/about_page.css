@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+}
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Cascadia Code', sans-serif;                                               
+    font-size: 2.5rem;
+}
+.nav_bar {
+    margin-top: 0rem;
+    padding-top:0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#tabs {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_tabs a {
+    text-decoration: none;
+    color: #CCC0C0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 1.8rem;
+    gap: 7%;
+
+}
+.right_tabs a {
+    text-decoration: none;
+    color: #CCC0C0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.8rem;
+    gap: 7%;
+      
+}
+#title {
+    color: antiquewhite;
+    font-size: x-large;
+    font-family: 'Cascadia Code', sans-serif;
+    text-align: center;
+}

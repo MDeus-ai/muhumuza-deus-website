@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    opacity: 0; /* Start hidden */
+    transform: translateY(60px); /* Move down by 50px */
+    transition: opacity 3s ease-out, transform 3s ease-out; /* Smooth transition */
+    background-color: #113946;
+    
+}
+
+.card-image {
+    width: 120px; /* Smaller width for image */
+    height: 120px; /* Make the image square */
+    object-fit: cover;
+    border-radius: 10px 0 0 10px; /* Rounded corners only on the left */
+}
+
+.card-content {
+    padding: 15px;
+    text-align: left;
+}
+
+/* When the card is in view, make it visible and transition up */
+.card.show {
+    opacity: 1;
+    transform: translateY(0); /* Move back to its original position */
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #FAF7F0;
+}
+
+
+.roboto-slab-intro {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 00; /* Regular weight */
+    font-style:normal;
+}
+  
+.card p {
+    font-size: 1rem;
+    color: #D8D2C2;
+}
+
+/* Typing Hey */
+#Hey {  
+    font-size: 3rem;
+    color:#FAF7F0;
+    margin-bottom: 0;
+    padding: 0 3rem 0 3rem;
+    text-align: left;
+}
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
